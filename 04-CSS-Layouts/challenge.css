@@ -14,11 +14,10 @@ body {
   width: 825px;
   margin: 50px auto;
   position: relative;
-}
 
-.container {
-  display: flex;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 
 .sale {
@@ -40,11 +39,11 @@ body {
   text-transform: uppercase;
   background-color: #f7f7f7;
   padding: 15px;
+  grid-column: 1 / -1;
 }
 
 .product-info {
   margin-top: 20px;
-  flex: 1;
 }
 
 .product-price {
@@ -83,7 +82,6 @@ body {
 
 .product-details {
   margin-top: 20px;
-  flex: 1;
 }
 
 .details-title {
@@ -111,6 +109,7 @@ body {
   padding: 15px;
   width: 100%;
   border-top: 4px solid #000;
+  grid-column: 1 / -1;
 }
 
 .add-cart:hover {
