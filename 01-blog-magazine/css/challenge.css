@@ -151,3 +151,8 @@ body {
 .color-brown {
   background-color: #885214;
 }
+
+.back {
+  display: block;
+  text-align: center;
+}

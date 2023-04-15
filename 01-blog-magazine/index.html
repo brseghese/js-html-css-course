@@ -3,8 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="css/style.css">
   <title>The Basic Language of the web: HTML</title>
 </head>
 
@@ -14,23 +13,26 @@
       <h1>📘 The Code Magazine</h1>
 
       <nav>
-        <a href="blog.html">Blog</a>
+        <a href="#">Blog</a>
         <a href="challenge.html">Challenges</a>
         <a href="#">Flexbox</a>
         <a href="#">CSS Grid</a>
       </nav>
     </header>
 
+    <!-- <div class="row"> --> <!-- Only necessary for Flexbox-->
     <article>
       <header class="post-header">
         <h2>The Basic Language of the Web: HTML</h2>
 
-        <img src="img/laura-jones.jpg" alt="Headshot of Laura Jones" width="50"
-          height="50">
+        <div class="author-box">
+          <img src="img/laura-jones.jpg" alt="Headshot of Laura Jones"
+            width="50" height="50" class="author-img">
 
-        <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June
-          21st 2027
-        </p>
+          <p id="author" class="author">Posted by <strong>Laura Jones</strong>
+            on Monday, June 21st 2027
+          </p>
+        </div>
 
         <img src="img/post-img.jpg" alt="HTML code on a screen" width="500"
           height="200" class="post-img">
@@ -42,8 +44,8 @@
       </p>
 
       <p>
-        In this post, let's focus on HTML. We will learn what HTML is all about,
-        and why you too should learn it.
+        In this post, let's focus on HTML. We will learn what HTML is all
+        about, and why you too should learn it.
       </p>
 
       <h3>What is HTML?</h3>
@@ -58,8 +60,8 @@
 
       <p>
         HTML consists of elements that describe different types of content:
-        paragraphs, links, headings, images, video, etc. Web browsers understand
-        HTML and render HTML code as websites.
+        paragraphs, links, headings, images, video, etc. Web browsers
+        understand HTML and render HTML code as websites.
       </p>
 
       <p>In HTML, each element is made up of 3 parts:</p>
@@ -80,8 +82,8 @@
       <h3>Why should you learn HTML?</h3>
 
       <p>
-        There are countless reasons for learning the fundamental language of the
-        web. Here are 5 of them:
+        There are countless reasons for learning the fundamental language of
+        the web. Here are 5 of them:
       </p>
 
       <ul>
@@ -100,32 +102,38 @@
       <h4>Related posts</h4>
 
       <ul class="related">
-        <li>
+        <li class="related-post">
           <img src="img/related-1.jpg" alt="Person programming" width="75"
             height="75">
-          <a href="#">How to Learn Web Development</a>
-          <p class="related-author">By Jonas Schmedtmann</p>
+          <div>
+            <a class="related-link" href="#">How to Learn Web Development</a>
+            <p class="related-author">By Jonas Schmedtmann</p>
+          </div>
         </li>
-        <li>
+        <li class="related-post">
           <img src="img/related-2.jpg" alt="Lightning" width="75" height="75">
-          <a href="#">The Unknown Powers of CSS</a>
-          <p class="related-author">By Jim Dillon</p>
+          <div>
+            <a class="related-link" href="#">The Unknown Powers of CSS</a>
+            <p class="related-author">By Jim Dillon</p>
+          </div>
         </li>
-        <li>
+        <li class="related-post">
           <img src="img/related-3.jpg" alt="JavaScript code on a screen"
             width="75" height="75">
-          <a href="#">Why JavaScript is Awesome</a>
-          <p class="related-author">By Matilda</p>
+          <div>
+            <a class="related-link" href="#">Why JavaScript is Awesome</a>
+            <p class="related-author">By Matilda</p>
+          </div>
         </li>
       </ul>
     </aside>
+    <!-- </div> -->
 
     <footer>
       <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
     </footer>
     <button>❤️ Like</button>
   </div>
-
 </body>
 
 </html>
