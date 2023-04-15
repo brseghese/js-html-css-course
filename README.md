@@ -12,6 +12,16 @@ Projeto teórico e prático:
 
 ---
 
+### 🔶 Chair Shop
+
+Projeto teórico e prático:
+
+- Web Design
+
+#### 🚀 [Chair Shop]() 🔗
+
+---
+
 > Copyright &copy; 2023 by **Bruno Seghese**
 
 ---
