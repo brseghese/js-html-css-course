@@ -18,7 +18,7 @@ Projeto teórico e prático:
 
 - Web Design
 
-#### 🚀 [Chair Shop]() 🔗
+#### 🚀 [Chair Shop](https://js-chair-shop.netlify.app/) 🔗
 
 ---
 
