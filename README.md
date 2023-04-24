@@ -22,6 +22,16 @@ Projeto teórico e prático:
 
 ---
 
+### 🔶 Omnifood
+
+Projeto teórico e prático:
+
+- Profissional
+
+#### 🚀 [Omnifood](https://js-omnifood.netlify.app/) 🔗
+
+---
+
 > Copyright &copy; 2023 by **Bruno Seghese**
 
 ---
